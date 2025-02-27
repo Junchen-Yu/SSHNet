@@ -1,0 +1,1 @@
+nohup python -u train.py --gpuid 0 --dataset ggmap --note exp > SSHNet_ggmap.log  &
