@@ -28,3 +28,6 @@ python -u train_distillation.py --gpuid 0 --dataset ggmap --checkpoint ./logs/op
 python -u train.py --gpuid 0 --mode test --dataset ggmap --checkpoint ./logs/optsar/model_iter_120000  --note test
 ```
 
+## License
+
+This project is released under the Apache 2.0 license.
