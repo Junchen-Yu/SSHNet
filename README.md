@@ -1,6 +1,6 @@
-# SSHNet: Unsupervised Cross-modal Homography Estimation via Problem Redefinition and Split Optimization
+# SSHNet: Unsupervised Cross-modal Homography Estimation via Problem Reformulation and Split Optimization
 
-This is the implementation of the paper "SSHNet: Unsupervised Cross-modal Homography Estimation via Problem Redefinition and Split Optimization"
+This is the implementation of the paper "SSHNet: Unsupervised Cross-modal Homography Estimation via Problem Reformulation and Split Optimization"
 
 ## Requirements
 
