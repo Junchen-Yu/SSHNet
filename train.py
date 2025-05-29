@@ -97,7 +97,6 @@ def train(args):
                                                                                                                                     sum_ace22 / args.print_freq, 
                                                                                                                                     scheduler.get_lr()[0], 
                                                                                                                                     time_remain/3600))
-                
                 sum_ace11, sum_ace12, sum_ace22 = 0, 0, 0
 
             # save model
