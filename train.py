@@ -122,7 +122,7 @@ def test(args, glob_iter=None, model=None):
     device = torch.device("cuda:"+ str(args.gpuid))
     test_loader = datasets.fetch_dataloader(args, split="test")
     if model == None:
-        model = SSHNet(unet_type=args.unet_type).to(device)
+        model = SSHNet(trans=args.trans, homo=args.homo).to(device)
         if args.checkpoint is None:
             print("ERROR : no checkpoint")
             exit()
